@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.2.3" timestamp="2016-10-19T20:48:11.017">
+<pmd version="5.2.3" timestamp="2016-10-20T07:01:01.063">
 <file name="./gradle-fury-validation/src/main/java/com/chrisdoyle/validation/Main.java">
 <violation beginline="26" endline="499" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Naming" package="com.chrisdoyle.validation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortClassName" priority="4">
 Avoid short class names like Main

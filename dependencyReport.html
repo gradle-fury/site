@@ -8,7 +8,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="Date-Creation-yyyymmdd" content="20160101"/>
-    <meta name="Date-Revision-yyyymmdd" content="20161019"/>
+    <meta name="Date-Revision-yyyymmdd" content="20161020"/>
     <meta http-equiv="Content-Language" content="en"/>
     <title> Gradle Fury</title>
     <link rel="stylesheet" href="./css/apache-maven-fluido-1.4.min.css"/>
@@ -65,7 +65,7 @@
             </li>
 
             <li id="publishDate" class="pull-right"><span class="divider">|</span> Last Published:
-                2016-10-19
+                2016-10-20
             </li>
             <li id="projectVersion" class="pull-right">
                 1.1.0
@@ -92,6 +92,41 @@
                     from src/site are auto linked here-->
                      <li>
 
+                                <a href="Android-Support-Plugin.html" title="Android   Support   Plugin">
+                                    <span class="none"></span>
+                                    Android   Support   Plugin</a>
+                            </li> <li>
+
+                                <a href="Bootstrap-Plugin.html" title="Bootstrap   Plugin">
+                                    <span class="none"></span>
+                                    Bootstrap   Plugin</a>
+                            </li> <li>
+
+                                <a href="Encryption-Plugin.html" title="Encryption   Plugin">
+                                    <span class="none"></span>
+                                    Encryption   Plugin</a>
+                            </li> <li>
+
+                                <a href="FAQ.html" title="FAQ">
+                                    <span class="none"></span>
+                                    FAQ</a>
+                            </li> <li>
+
+                                <a href="Home.html" title="Home">
+                                    <span class="none"></span>
+                                    Home</a>
+                            </li> <li>
+
+                                <a href="Quality-Plugin.html" title="Quality   Plugin">
+                                    <span class="none"></span>
+                                    Quality   Plugin</a>
+                            </li> <li>
+
+                                <a href="Release-Procedure.html" title="Release   Procedure">
+                                    <span class="none"></span>
+                                    Release   Procedure</a>
+                            </li> <li>
+
                                 <a href="sampleAsciidoc.html" title="Sample Asciidoc">
                                     <span class="none"></span>
                                     Sample Asciidoc</a>
@@ -105,6 +140,16 @@
                                 <a href="sampleMarkdown.html" title="Sample Markdown">
                                     <span class="none"></span>
                                     Sample Markdown</a>
+                            </li> <li>
+
+                                <a href="Site-Plugin.html" title="Site   Plugin">
+                                    <span class="none"></span>
+                                    Site   Plugin</a>
+                            </li> <li>
+
+                                <a href="The-Maven-Support-plugin.html" title="The   Maven   Support   plugin">
+                                    <span class="none"></span>
+                                    The   Maven   Support   plugin</a>
                             </li> <li>
 
                                 <a href="wiki.html" title="Wiki">
@@ -280,7 +325,7 @@ dependencies {
 	compile: 'junit:junit:4.12@jar'
 //END WARN dependency converage flag!
 
-    	compile: 'org.gradlefury:hello-world-lib:1.1.0@jar'
+    	compile: 'com.chrisdoyle:hello-world-lib:1.1.0@jar'
 	compile: 'com.android.support:support-annotations:23.3.0@jar'
 	compile: 'org.osmdroid:osmdroid-android:5.4.1@aar'
 	compile: 'org.jacoco:org.jacoco.agent:0.7.4.201502262128@jar'
@@ -289,7 +334,7 @@ dependencies {
 	compile: 'com.android.support.test:rules:0.4.+'
 	compile: 'com.squareup.leakcanary:leakcanary-android:1.4-beta2@aar'
 	compile: 'ch.acra:acra:4.7.0@aar'
-	compile: 'org.gradlefury:hello-world-aar:1.1.0@aar'
+	compile: 'com.chrisdoyle:hello-world-aar:1.1.0@aar'
 
 
 //WARN dependency converage flag! Currently used by the modules: [hello-world-apk, hello-world-gmaps, hello-world-apk-overrides]
@@ -310,7 +355,7 @@ dependencies {
     	compile: 'org.apache.commons:commons-io:1.3.+'
 	compile: 'org.apache.commons:commons-math3:3.+'
 	compile: 'commons-codec:commons-codec:1+'
-	compile: 'org.gradlefury:hello-universe-lib:1.1.0@jar'
+	compile: 'com.chrisdoyle:hello-universe-lib:1.1.0@jar'
 	compile: 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2@aar'
 	compile: 'com.google.android.gms:play-services:8.+'
 	compile: 'com.google.android.gms:play-services-maps:8.+'
@@ -394,7 +439,7 @@ dependencies {
 &lt;!--END WARN dependency converage flag!--&gt;
 
     	&lt;dependency&gt;
-		&lt;groupId&gt;org.gradlefury&lt;/groupId&gt;
+		&lt;groupId&gt;com.chrisdoyle&lt;/groupId&gt;
 		&lt;artifactId&gt;hello-world-lib&lt;/artifactId&gt;
 		&lt;version&gt;1.1.0&lt;/version&gt;
 		&lt;type&gt;jar&lt;/type&gt;
@@ -446,7 +491,7 @@ dependencies {
 		&lt;type&gt;aar&lt;/type&gt;
 	&lt;/dependency&gt;
 	&lt;dependency&gt;
-		&lt;groupId&gt;org.gradlefury&lt;/groupId&gt;
+		&lt;groupId&gt;com.chrisdoyle&lt;/groupId&gt;
 		&lt;artifactId&gt;hello-world-aar&lt;/artifactId&gt;
 		&lt;version&gt;1.1.0&lt;/version&gt;
 		&lt;type&gt;aar&lt;/type&gt;
@@ -519,7 +564,7 @@ dependencies {
 		&lt;version&gt;[1,)&lt;/version&gt;
 	&lt;/dependency&gt;
 	&lt;dependency&gt;
-		&lt;groupId&gt;org.gradlefury&lt;/groupId&gt;
+		&lt;groupId&gt;com.chrisdoyle&lt;/groupId&gt;
 		&lt;artifactId&gt;hello-universe-lib&lt;/artifactId&gt;
 		&lt;version&gt;1.1.0&lt;/version&gt;
 		&lt;type&gt;jar&lt;/type&gt;

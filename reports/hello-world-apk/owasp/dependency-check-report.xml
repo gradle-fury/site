@@ -64,11 +64,11 @@
         </dataSource>
         <dataSource>
             <name>NVD CVE Checked</name>
-            <timestamp>19/10/2016 20:47:48</timestamp>
+            <timestamp>20/10/2016 07:00:36</timestamp>
         </dataSource>
         <dataSource>
             <name>NVD CVE Modified</name>
-            <timestamp>19/10/2016 20:13:51</timestamp>
+            <timestamp>20/10/2016 06:10:56</timestamp>
         </dataSource>
         <dataSource>
             <name>VersionCheckOn</name>
@@ -77,7 +77,7 @@
     </scanInfo>
     <projectInfo>
         <name>hello-world-apk</name>
-        <reportDate>2016-10-19T20:51:11.566-0400</reportDate>
+        <reportDate>2016-10-20T07:04:10.448-0400</reportDate>
         <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
     </projectInfo>
     <dependencies>
@@ -5817,13 +5817,13 @@ The W3C License: http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-bi
         <dependency>
             <fileName>hello-universe-lib-1.1.0.jar</fileName>
             <filePath>./hello-universe-lib/build/libs/hello-universe-lib-1.1.0.jar</filePath>
-            <md5>c5850b24695211e328450b5bd6a8364d</md5>
-            <sha1>55998674a6a6ac4c0267f77ec0613af6d11eabea</sha1>
+            <md5>8019d0a83083c5c86ed4756f436a4f6d</md5>
+            <sha1>4ec416183f838d44c31137505643bc8f35dccbd3</sha1>
             <relatedDependencies>
                 <relatedDependency>
                     <filePath>./hello-universe-lib/build/libs/hello-universe-lib-1.1.0.jar</filePath>
-                    <sha1>55998674a6a6ac4c0267f77ec0613af6d11eabea</sha1>
-                    <md5>c5850b24695211e328450b5bd6a8364d</md5>
+                    <sha1>4ec416183f838d44c31137505643bc8f35dccbd3</sha1>
+                    <md5>8019d0a83083c5c86ed4756f436a4f6d</md5>
                 </relatedDependency>
             </relatedDependencies>
             <evidenceCollected>
@@ -5872,13 +5872,13 @@ The W3C License: http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-bi
         <dependency>
             <fileName>hello-world-lib-1.1.0.jar</fileName>
             <filePath>./hello-world-lib/build/libs/hello-world-lib-1.1.0.jar</filePath>
-            <md5>f9a5d3bad49351665a81ae5f033e6ec2</md5>
-            <sha1>18ddb9b63ca10bee022c45ce9ef3431226d4246b</sha1>
+            <md5>6ffb7c54595e7983d9a9664ef74a1c61</md5>
+            <sha1>98ab6e261fcd28b7539db19997a97f72b2c3f584</sha1>
             <relatedDependencies>
                 <relatedDependency>
                     <filePath>./hello-world-lib/build/libs/hello-world-lib-1.1.0.jar</filePath>
-                    <sha1>18ddb9b63ca10bee022c45ce9ef3431226d4246b</sha1>
-                    <md5>f9a5d3bad49351665a81ae5f033e6ec2</md5>
+                    <sha1>98ab6e261fcd28b7539db19997a97f72b2c3f584</sha1>
+                    <md5>6ffb7c54595e7983d9a9664ef74a1c61</md5>
                 </relatedDependency>
             </relatedDependencies>
             <evidenceCollected>
