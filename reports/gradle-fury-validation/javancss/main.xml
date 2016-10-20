@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <javancss>
-  <date>2016-10-16</date>
-  <time>22:09:50</time>
+  <date>2016-10-19</date>
+  <time>20:48:10</time>
   <packages>
     <package>
       <name>com.chrisdoyle.validation</name>
@@ -16,8 +16,8 @@
     <package>
       <name>com.chrisdoyle.validation.tests</name>
       <classes>17</classes>
-      <functions>33</functions>
-      <ncss>384</ncss>
+      <functions>34</functions>
+      <ncss>386</ncss>
       <javadocs>19</javadocs>
       <javadoc_lines>75</javadoc_lines>
       <single_comment_lines>27</single_comment_lines>
@@ -35,8 +35,8 @@
     </package>
     <total>
       <classes>55</classes>
-      <functions>530</functions>
-      <ncss>2278</ncss>
+      <functions>531</functions>
+      <ncss>2280</ncss>
       <javadocs>652</javadocs>
       <javadoc_lines>7214</javadoc_lines>
       <single_comment_lines>268</single_comment_lines>
@@ -44,10 +44,10 @@
     </total>
     <table>
       <tr><td>Packages</td><td>Classes</td><td>Functions</td><td>NCSS</td><td>Javadocs</td><td>per</td></tr>
-      <tr><td>3.00</td><td>55.00</td><td>530.00</td><td>2,278.00</td><td>652.00</td><td>Project</td></tr>
-      <tr><td></td><td>18.33</td><td>176.67</td><td>759.33</td><td>217.33</td><td>Package</td></tr>
-      <tr><td></td><td></td><td>9.64</td><td>41.42</td><td>11.85</td><td>Class</td></tr>
-      <tr><td></td><td></td><td></td><td>4.30</td><td>1.23</td><td>Function</td></tr>
+      <tr><td>3.00</td><td>55.00</td><td>531.00</td><td>2,280.00</td><td>652.00</td><td>Project</td></tr>
+      <tr><td></td><td>18.33</td><td>177.00</td><td>760.00</td><td>217.33</td><td>Package</td></tr>
+      <tr><td></td><td></td><td>9.65</td><td>41.45</td><td>11.85</td><td>Class</td></tr>
+      <tr><td></td><td></td><td></td><td>4.29</td><td>1.23</td><td>Function</td></tr>
     </table>
   </packages>
 
@@ -64,8 +64,8 @@
     </object>
     <object>
       <name>com.chrisdoyle.validation.tests.SiteTests</name>
-      <ncss>36</ncss>
-      <functions>8</functions>
+      <ncss>38</ncss>
+      <functions>9</functions>
       <classes>0</classes>
       <javadocs>1</javadocs>
       <javadocs_lines>3</javadocs_lines>
@@ -603,15 +603,15 @@
       <implementation_comment_lines>0</implementation_comment_lines>
     </object>
     <averages>
-      <ncss>34.95</ncss>
-      <functions>9.64</functions>
+      <ncss>34.98</ncss>
+      <functions>9.65</functions>
       <classes>0.89</classes>
       <javadocs>11.85</javadocs>
       <javadocs_lines>131.16</javadocs_lines>
       <single_comment_lines>0.73</single_comment_lines>
       <implementation_comment_lines>0.80</implementation_comment_lines>
     </averages>
-    <ncss>2,278.00</ncss>
+    <ncss>2,280.00</ncss>
   </objects>
 
   <functions>
@@ -647,6 +647,12 @@
     </function>
     <function>
       <name>com.chrisdoyle.validation.tests.SiteTests.confirmFindbugsReportsExist()</name>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+      <javadocs>0</javadocs>
+    </function>
+    <function>
+      <name>com.chrisdoyle.validation.tests.SiteTests.confirmOWASPReportsExist()</name>
       <ncss>2</ncss>
       <ccn>1</ccn>
       <javadocs>0</javadocs>
@@ -4092,9 +4098,9 @@
     <function_averages>
       <ncss>2.67</ncss>
       <ccn>1.26</ccn>
-      <javadocs>0.95</javadocs>
+      <javadocs>0.94</javadocs>
     </function_averages>
-    <ncss>2,278.00</ncss>
+    <ncss>2,280.00</ncss>
   </functions>
 </javancss>
 

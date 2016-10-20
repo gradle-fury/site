@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.2.3" timestamp="2016-10-16T22:09:51.696">
+<pmd version="5.2.3" timestamp="2016-10-19T20:48:11.017">
 <file name="./gradle-fury-validation/src/main/java/com/chrisdoyle/validation/Main.java">
 <violation beginline="26" endline="499" begincolumn="8" endcolumn="1" rule="ShortClassName" ruleset="Naming" package="com.chrisdoyle.validation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortClassName" priority="4">
 Avoid short class names like Main
@@ -69,8 +69,8 @@ The String literal &quot;main.html&quot; appears 4 times in this file; the first
 <violation beginline="67" endline="67" begincolumn="30" endcolumn="41" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="com.chrisdoyle.validation.tests" class="SiteTests" method="confirmDependenciesReportsExist" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
 The String literal &quot;index.html&quot; appears 5 times in this file; the first occurrence is on line 67
 </violation>
-<violation beginline="96" endline="96" begincolumn="30" endcolumn="44" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="com.chrisdoyle.validation.tests" class="SiteTests" method="test" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
-The String literal &quot;docs/reports/&quot; appears 6 times in this file; the first occurrence is on line 96
+<violation beginline="100" endline="100" begincolumn="30" endcolumn="44" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="com.chrisdoyle.validation.tests" class="SiteTests" method="test" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;docs/reports/&quot; appears 6 times in this file; the first occurrence is on line 100
 </violation>
 </file>
 <file name="./gradle-fury-validation/src/main/java/com/chrisdoyle/validation/tests/TestPostPublication.java">

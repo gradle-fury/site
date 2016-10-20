@@ -8,7 +8,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="Date-Creation-yyyymmdd" content="20160101"/>
-    <meta name="Date-Revision-yyyymmdd" content="20161016"/>
+    <meta name="Date-Revision-yyyymmdd" content="20161019"/>
     <meta http-equiv="Content-Language" content="en"/>
     <title> Gradle Fury</title>
     <link rel="stylesheet" href="./css/apache-maven-fluido-1.4.min.css"/>
@@ -25,7 +25,7 @@
 </head>
 <body class="topBarDisabled">
 
-<a href="https://github.com/chrisdoyle/gradle-fury">
+<a href="https://github.com/gradle-fury/gradle-fury">
     <img style="position: absolute; top: 0; right: 0; border: 0; z-index: 10000;"
     src="./img/forkme_right_gray_6d6d6d.png"
     alt="Fork me on GitHub">
@@ -54,21 +54,21 @@
         <ul class="breadcrumb">
 
             <li class="">
-                <a href="http://chrisdoyle.com/" class="externalLink" title="[ c h r i s d o y l e ]">
-                    [ c h r i s d o y l e ]</a>
+                <a href="https://gradle-fury.github.io/site/" class="externalLink" title="[ gradle-fury ]">
+                    [ gradle-fury ]</a>
                 <span class="divider">/</span>
             </li>
             <li class="">
-                <a href="http://chrisdoyle.github.io/gradle-fury/" class="externalLink" title="Gradle Fury">
+                <a href="http://github.com/gradle-fury/gradle-fury" class="externalLink" title="Gradle Fury">
                     Gradle Fury</a>
 
             </li>
 
             <li id="publishDate" class="pull-right"><span class="divider">|</span> Last Published:
-                2016-10-16
+                2016-10-19
             </li>
             <li id="projectVersion" class="pull-right">
-                1.0.19
+                1.1.0
             </li>
 
         </ul>
@@ -130,14 +130,14 @@
 
                             <li>
 
-                                <a href="https://github.com/chrisdoyle/gradle-fury.git" title="Source Repository">
+                                <a href="https://github.com/gradle-fury/gradle-fury.git" title="Source Repository">
                                     <span class="none"></span>
                                     Source Repository</a>
                             </li>
 
                             <li>
 
-                                <a href="https://github.com/chrisdoyle/gradle-fury/issues" title="Issue Tracking">
+                                <a href="https://github.com/gradle-fury/gradle-fury/issues" title="Issue Tracking">
                                     <span class="none"></span>
                                     Issue Tracking</a>
                             </li>
@@ -182,7 +182,7 @@
 -->
                             <li>
 
-                                <a href="https://travis-ci.org/chrisdoyle/gradle-fury" title="Continuous Integration">
+                                <a href="https://travis-ci.org/gradle-fury/gradle-fury" title="Continuous Integration">
                                     <span class="none"></span>
                                     Continuous Integration</a>
                             </li>
@@ -196,7 +196,7 @@
 -->
                             <li>
 
-                                <a href="https://github.com/chrisdoyle/gradle-fury/releases"
+                                <a href="https://github.com/gradle-fury/gradle-fury/releases"
                                    title="Distribution Management">
                                     <span class="none"></span>
                                     Distribution Management</a>
@@ -254,17 +254,17 @@ the maven site plugin.</p>
 <h2>Why use Gradle-Fury</h2>
 <p>Great question, with a sea of many maven publisher helpers (this along should raise a red flag that
 something is wrong) what stands gradle-fury apart?</p>
-<p>Check out <a href="https://github.com/chrisdoyle/gradle-fury/wiki">the wiki</a> for the most update to date set
+<p>Check out <a href="https://github.com/gradle-fury/gradle-fury/wiki">the wiki</a> for the most update to date set
 of features. It's always growing and it's easier to update the wiki.</p>
 <p>This notice will be removed/updated once the remaining versions are fixed</p>
 <h2>Build Status</h2>
-<p>Develop: <a href="https://travis-ci.org/chrisdoyle/gradle-fury"><img src="https://travis-ci.org/chrisdoyle/gradle-fury.svg?branch=develop" alt="Build Status" /></a>
-Master: <a href="https://travis-ci.org/chrisdoyle/gradle-fury"><img src="https://travis-ci.org/chrisdoyle/gradle-fury.svg?branch=master" alt="Build Status" /></a></p>
+<p>Develop: <a href="https://travis-ci.org/gradle-fury/gradle-fury"><img src="https://travis-ci.org/gradle-fury/gradle-fury.svg?branch=develop" alt="Build Status" /></a>
+Master: <a href="https://travis-ci.org/gradle-fury/gradle-fury"><img src="https://travis-ci.org/gradle-fury/gradle-fury.svg?branch=master" alt="Build Status" /></a></p>
 <h2>Requirements</h2>
 <p>Requirements for using Gradle-Fury</p>
 <ul>
 <li>JDK 7 or JDK 8 (depending on what gradle version and android plugin you're using)</li>
-<li>For Android support, gradle android plugin v1.3.0 or higher, we test using a variety of configurations. See the <a href="https://github.com/chrisdoyle/gradle-fury/blob/develop/.travis.yml">Travis build matrix</a></li>
+<li>For Android support, gradle android plugin v1.3.0 or higher, we test using a variety of configurations. See the <a href="https://github.com/gradle-fury/gradle-fury/blob/develop/.travis.yml">Travis build matrix</a></li>
 <li>For digital signature support, GPG must be installed on your computer. We test with gnugpg.</li>
 </ul>
 <p>Tested configurations for gradle and the android gradle build tools.</p>
@@ -306,11 +306,11 @@ make gold from lead - ao</p>
 <p>Please refer to the dummy &quot;Hello World&quot; subprojects along with the provided root project
 <code>build.gradle</code> and <code>gradle.properties</code> files included with this project as a general usage guide:</p>
 <ul>
-<li>Example Android Library: <a href="https://github.com/chrisdoyle/gradle-fury/tree/master/hello-world-aar">hello-world-aar</a></li>
-<li>Example Android Application: <a href="https://github.com/chrisdoyle/gradle-fury/tree/master/hello-world-apk">hello-world-apk</a></li>
-<li>Example Java Library: <a href="https://github.com/chrisdoyle/gradle-fury/tree/master/hello-world-lib">hello-world-lib</a></li>
-<li>Root <a href="https://github.com/chrisdoyle/gradle-fury/blob/master/build.gradle">build.gradle</a></li>
-<li>Root <a href="https://github.com/chrisdoyle/gradle-fury/blob/master/gradle.properties">gradle.properties</a></li>
+<li>Example Android Library: <a href="https://github.com/gradle-fury/gradle-fury/tree/master/hello-world-aar">hello-world-aar</a></li>
+<li>Example Android Application: <a href="https://github.com/gradle-fury/gradle-fury/tree/master/hello-world-apk">hello-world-apk</a></li>
+<li>Example Java Library: <a href="https://github.com/gradle-fury/gradle-fury/tree/master/hello-world-lib">hello-world-lib</a></li>
+<li>Root <a href="https://github.com/gradle-fury/gradle-fury/blob/master/build.gradle">build.gradle</a></li>
+<li>Root <a href="https://github.com/gradle-fury/gradle-fury/blob/master/gradle.properties">gradle.properties</a></li>
 </ul>
 <h4>1. Create or modify the root gradle.properties file in your project</h4>
 <p>This is the secret sauce.  I crave simplicity, and I just adore the idea of being able to house
@@ -404,15 +404,15 @@ pom.developers.developer.1.organization=Hackerman Worldwide
 pom.developers.developer.1.role.0=Computer Whiz
 pom.developers.developer.1.role.1=Hackerbot
 </code></pre>
-<p>The included root <a href="https://github.com/chrisdoyle/gradle-fury/blob/master/gradle.properties">gradle.properties</a>
+<p>The included root <a href="https://github.com/gradle-fury/gradle-fury/blob/master/gradle.properties">gradle.properties</a>
 file may be used as a template.</p>
 <h4>2. Modify the <code>allprojects</code> closure in your root project <code>build.gradle</code></h4>
 <p>The required modifications consist of defining the default <code>project.group</code> and <code>project.version</code>
 properties, and applying the
-<a href="https://github.com/chrisdoyle/gradle-fury/blob/master/gradle/maven-support.gradle">maven-support.gradle</a>
+<a href="https://github.com/gradle-fury/gradle-fury/blob/master/gradle/maven-support.gradle">maven-support.gradle</a>
 script in the <code>allprojects</code> closure, which will subsequently apply the configuration to all subprojects.</p>
 <p>Please note that <code>project.group</code> and <code>project.version</code> <em>must</em> be defined before including
-<a href="https://github.com/chrisdoyle/gradle-fury/blob/master/gradle/maven-support.gradle">maven-support.gradle</a>
+<a href="https://github.com/gradle-fury/gradle-fury/blob/master/gradle/maven-support.gradle">maven-support.gradle</a>
 since it uses these values.  Also note that these property values may be overridden by individual
 subprojects.</p>
 <pre><code class="language-groovy">allprojects  {
@@ -424,7 +424,7 @@ subprojects.</p>
     project.version =
             ( project.hasProperty('pom.version') ? project.property('pom.version') : &quot;1.0&quot; )
 
-    apply from: 'https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/maven-support.gradle'
+    apply from: 'https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/maven-support.gradle'
 
 		.
 		.
@@ -432,24 +432,24 @@ subprojects.</p>
 
 }
 </code></pre>
-<p>The included root <a href="https://github.com/chrisdoyle/gradle-fury/blob/master/build.gradle">build.gradle</a>
+<p>The included root <a href="https://github.com/gradle-fury/gradle-fury/blob/master/build.gradle">build.gradle</a>
 file may be used as a reference for usage.</p>
-<h4>3. Apply the <a href="https://github.com/chrisdoyle/gradle-fury/blob/master/gradle/android-support.gradle">android-support.gradle</a> script to each Android subproject <a href="https://github.com/chrisdoyle/gradle-fury/blob/master/gradle.properties">gradle.properties</a></h4>
+<h4>3. Apply the <a href="https://github.com/gradle-fury/gradle-fury/blob/master/gradle/android-support.gradle">android-support.gradle</a> script to each Android subproject <a href="https://github.com/gradle-fury/gradle-fury/blob/master/gradle.properties">gradle.properties</a></h4>
 <p>Add the following to the
-<a href="https://github.com/chrisdoyle/gradle-fury/blob/master/build.gradle">build.gradle</a> of each Android
+<a href="https://github.com/gradle-fury/gradle-fury/blob/master/build.gradle">build.gradle</a> of each Android
 (Library or Application) subproject defined in your project:</p>
-<pre><code class="language-groovy">apply from: 'https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/android-support.gradle'
+<pre><code class="language-groovy">apply from: 'https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/android-support.gradle'
 
 </code></pre>
 <p>ProTip: apply the <code>apply</code> line BEFORE the <code>android { ]</code> block. This will allow you to override any default values or
 values defined within your gradle.properties file.</p>
 <p>See the <code>build.gradle</code> files defined in the
-<a href="https://github.com/chrisdoyle/gradle-fury/tree/master/hello-world-aar">hello-world-aar</a>,
-<a href="https://github.com/chrisdoyle/gradle-fury/tree/master/hello-world-apk">hello-world-apk</a>,
-<a href="https://github.com/chrisdoyle/gradle-fury/tree/master/hello-world-apk-overrides">hello-world-apk-overrides</a>
+<a href="https://github.com/gradle-fury/gradle-fury/tree/master/hello-world-aar">hello-world-aar</a>,
+<a href="https://github.com/gradle-fury/gradle-fury/tree/master/hello-world-apk">hello-world-apk</a>,
+<a href="https://github.com/gradle-fury/gradle-fury/tree/master/hello-world-apk-overrides">hello-world-apk-overrides</a>
 example projects for reference.</p>
 <p>Please note that no similar inclusions are required for standard Java subprojects, as illustrated in
-the <a href="https://github.com/chrisdoyle/gradle-fury/tree/master/hello-world-lib">hello-world-lib</a> example
+the <a href="https://github.com/gradle-fury/gradle-fury/tree/master/hello-world-lib">hello-world-lib</a> example
 Java project.</p>
 <h4>4. Publish multi-flavored Android artifacts with pretty POM files!</h4>
 <h5>Install Artifacts to a Local <code>.m2</code> Repository</h5>
@@ -461,7 +461,7 @@ Java project.</p>
 <p>The Gradle pipeline has been hacked such that the <code>install</code> task invokes the <code>publishToMavenLocal</code>
 task, along with a friendly &quot;warning&quot;.  Why?  Because the <code>install</code> task does not work with Android
 projects.  See also the
-<a href="https://github.com/chrisdoyle/gradle-fury/tree/develop#impetus-and-rage">Impetus and Rage</a> section
+<a href="https://github.com/gradle-fury/gradle-fury/tree/develop#impetus-and-rage">Impetus and Rage</a> section
 below.</p>
 <p>Also, please note that at the time this project was published the
 <a href="https://docs.gradle.org/current/userguide/publishing_maven.html">Gradle documentation for the really swell 'maven-plugin'</a>
@@ -568,19 +568,19 @@ generally used for releases, such as, items specific to a scope, such as
 Based off the work <a href="https://github.com/MasonLiuChn/AndroidCodeQuality">done here</a>.</p>
 <p>To apply to your project, apply this file under 'allprojects' then copy the files from gradle-fury/config and place it in your project</p>
 <pre><code>allprojects {
-        apply from 'https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/quality.gradle'
+        apply from 'https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/quality.gradle'
   }
 </code></pre>
 <p>then execute with <code>gradelw build</code></p>
 <p>Since the checks can add a lot of time to your build, you probably want to make it optional...</p>
 <pre><code> allprojects {
      if (project.hasProperty('profile') &amp;&amp; project.profile.split(',').contains(&quot;ci&quot;)) {
-        apply from 'https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/quality.gradle'     }
+        apply from 'https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/quality.gradle'     }
   }
 </code></pre>
 <p>Then execute with <code>gradelw build -Pprofile=ci</code></p>
 <h2>Maven Site Plugin</h2>
-<h3>[Here's what it looks like][<a href="http://chrisdoyle.github.io/gradle-fury">http://chrisdoyle.github.io/gradle-fury</a>]</h3>
+<h3>[Here's what it looks like][<a href="http://gradle-fury.github.io/gradle-fury">http://gradle-fury.github.io/gradle-fury</a>]</h3>
 <p>Well it's not exactly the Maven Site Plugin, but it's our version of it. It's pretty darn close.
 It uses theming inspired by <a href="http://maven.apache.org/skins/maven-fluido-skin/">Apache Fluido</a> and is loosely based
 on the work Paul Speed-2 @ filament did over <a href="https://sourceforge.net/p/filament/code/HEAD/tree/trunk/site/build.gradle">here</a>.</p>
@@ -596,7 +596,7 @@ If they were't created first, they won't be included with site generation.</p>
 <pre><code class="language-bash">mkdir src
 mkdir src/site/
 </code></pre>
-<p>Next, you'll want to grab all the files from gradle-fury's <a href="https://github.com/chrisdoyle/gradle-fury/tree/develop/src/site">src/site/</a>.
+<p>Next, you'll want to grab all the files from gradle-fury's <a href="https://github.com/gradle-fury/gradle-fury/tree/develop/src/site">src/site/</a>.
 Put those files in your <code>src/site/</code> folder.</p>
 <p>Next, create or edit <code>index.md</code>. This will be come your site's <code>index.html</code>, the first page people will look at it.</p>
 <p><strong>Note:</strong> if you're looking for gradle-fury's index.md page, you won't find it. Instead, we copy this readme.md to the right place
@@ -606,7 +606,7 @@ be included in the site. Any html or pdf files in the root <code>src/site/</code
 navigation menu.</p>
 <p>Finally, put this in your root build.gradle file. Do not place it within <code>allprojects</code>.</p>
 <pre><code class="language-groovy">
-apply from 'https://raw.githubusercontent.com/chrisdoyle/gradle-fury/master/gradle/site.gradle'
+apply from 'https://raw.githubusercontent.com/gradle-fury/gradle-fury/master/gradle/site.gradle'
 
 </code></pre>
 <p>We also took some liberties from the maven-site-plugin. Many of the pages it generates can be reduced to just a link.
